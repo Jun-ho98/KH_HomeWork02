@@ -1,0 +1,58 @@
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* 제목/내용 박스 */
+.detail-box {
+    margin-bottom: 20px;
+}
+
+.detail-box b {
+    font-size: 1.1em;
+}
+
+.content-box {
+    width: 70%;
+    min-height: 120px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fafafa;
+    white-space: pre-wrap;
+}
+
+/* 버튼 공통 */
+button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+}
+
+/* 삭제 버튼 강조 */
+button.delete {
+    background-color: #c0392b;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #e74c3c;
+    color: black;
+}

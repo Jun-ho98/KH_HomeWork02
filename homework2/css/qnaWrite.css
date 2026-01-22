@@ -1,0 +1,56 @@
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* 입력 박스 */
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+textarea {
+    width: 60%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-size: 1em;
+    resize: none;
+}
+
+/* 버튼 */
+button {
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: lightgray;
+    color: black;
+}

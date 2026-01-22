@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>답변 등록</title>
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="./css/qna_answer.css">
+    <script src="./js/qnaAnswer.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>이미지</div>
+        <div><a href="/practice/Kh/index.html">로고</a></div>
+        <div>유저정보</div>
+    </header>
+
+    <nav>
+        <a href="">공지사항</a>
+        <a href="/practice/Kh/board.html">게시판</a>
+        <a href="">갤러리</a>
+        <a href="/practice/Kh/qnaList.html">문의게시판</a>
+    </nav>
+
+    <h1>답변 등록</h1>
+
+    <div>번호: <span id="answerNo"></span></div>
+    <div>제목: <span id="answerTitle"></span></div>
+
+    <div>질문 내용:</div>
+    <div id="answerContent" class="content-box"></div>
+
+    <br><br>
+
+    <label>답변 내용</label><br>
+    <textarea id="answerText"></textarea>
+
+    <br><br>
+    <button onclick="saveAnswer()">답변 저장</button>
+    <button onclick="location.href='qnaList.html'">목록</button>
+
+</body>
+
+</html>
