@@ -36,7 +36,7 @@ function deleteBoard() {
      alert("삭제가 완료 되었습니다");
     
      //목록조회 페이지로 이동
-     location.href = "/practice/Kh/board_list.html";
+     location.href = "./board_list.html";
     
 }
 

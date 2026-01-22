@@ -33,7 +33,7 @@ function displayQnaList() {
 
 function openDetail(no) {
     setSelectedQna(no);
-    location.href = "/practice/Kh/qnaDetail.html  ";
+    location.href = "./qnaDetail.html  ";
 }
 
 window.onload = function () {
